@@ -15,4 +15,9 @@ public class HelloController {
     public String hello(@PathVariable("name")  String name) {
         return "hello " + name;
     }
+
+    @RequestMapping("test")
+    public String testGit() {
+        return "test git";
+    }
 }
